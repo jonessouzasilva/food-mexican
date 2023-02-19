@@ -33,6 +33,22 @@ body {
     font-size: 1.7rem;
     font-weight: 600;
 }
+.navigation .sociais {
+    width: 20%;
+}
+.sociais button {
+    width: 25px;
+    height: 28px;
+    background-image: linear-gradient(45deg, #ff2500, #ff7100);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-right: 1px;
+}
+.sociais button i {
+    font-size: 20px;
+    color: #fff;
+}
 .logo span {
     color: var(--dark);
 }
@@ -161,6 +177,6 @@ body {
         font-size: 15px;
     }
     .home-img{
-        width: 125%;
+        width: 20%;
     }
 }
