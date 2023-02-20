@@ -213,6 +213,14 @@ body{
     opacity: 1;
     transform: translateY(0);
 }
+main.assinatura
+{
+    font-size: medium;
+    text-align: center;
+    position: center center;
+    text-decoration: overline;
+    text-shadow: 1px 1px 1px blue;
+}
 
 @media (max-width:785px) {
     .navigation{
@@ -258,14 +266,4 @@ body{
     .home .text-h4{
         font-size: 15px;
     }
-    .home .text-h1{
-        font-size: 2.5rem;
-        line-height: 3rem;
-    }
-    .home p{
-        font-size: 15px;
-    }
-    .home-img{
-        width: 56%;
-    }
-}
+    .hom
