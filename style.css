@@ -201,7 +201,7 @@ body{
     position: absolute;
     margin-top: 180px;
     color: var(--dark);
-    background: #fac031;
+    background: var(--red);
     padding: 7px 25px;
     text-decoration: none;
     opacity: 1;
