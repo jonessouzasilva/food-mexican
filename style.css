@@ -124,7 +124,7 @@ body{
     background: #fc4c35;
 }
 .home-img img{
-    width: 600px;
+    width: 100%;
 }
 @media (max-width:785px) {
     .navigation{
@@ -178,6 +178,7 @@ body{
         font-size: 15px;
     }
     .home-img{
-        width: 90%;
+        width: 20%;
+        
     }
 }
