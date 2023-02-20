@@ -10,7 +10,7 @@
 }
 :root {
     --red: #d63a25;
-    --white: #fff;
+    --white: #F0F8FF;
     --dark: #1e1c2a;
 } 
 body {
@@ -22,7 +22,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 18px 40px;
-    box-shadow: 0 0.1rem 0.5rem #ccc;
+    box-shadow: 0 0.1rem 0.5rem #F0F8FF;
     width: 100%;
     background: var(--white);
     transition: all 0.5s;
@@ -48,7 +48,7 @@ body {
 .sociais a i:hover {
     transform: scale(1.6) rotate(5deg);
     font-size: 20px;
-    color: #fff;
+    color: #F0F8FF;
 }
 .logo span {
     color: var(--dark);
@@ -174,7 +174,7 @@ body {
         padding: 18px 20px;
     }
     .menu{
-        display: flex;
+        display: block;
     }
     .menu.ativo .bar:nth-child(1){
         transform:  translateY(8px) rotate(45deg);
