@@ -204,7 +204,7 @@ body {
     }
     /*main*/
     .home{
-        padding: 50px 5%;
+        padding: 30px 5%;
         flex-direction: column;
         text-align: center;
         overflow: hidden;
@@ -223,7 +223,6 @@ body {
     .home .home-img .home-img-1 {
         max-width: 100%;
         margin-right: 100%;
-        align-items: right;
     }
     
 }
