@@ -36,16 +36,17 @@ body {
 .navigation .sociais {
     width: 20%;
 }
-.sociais button {
-    width: 25px;
-    height: 28px;
+.sociais a {
+    width: 10px;
+    height: 10px;
     background-image: linear-gradient(45deg, #ff2500, #ff7100);
     border: none;
-    border-radius: 8px;
+    border-radius: 50px;
     cursor: pointer;
-    margin-right: 1px;
+    margin-right: 10px;
 }
-.sociais button i {
+.sociais a i:hover {
+    transform: scale(1.6) rotate(5deg);
     font-size: 20px;
     color: #fff;
 }
@@ -125,6 +126,43 @@ body {
 .home-img img {
     width: 100%;
 }
+.home {
+    width: 100%;
+    height: 120vh;
+    padding: 70px 0;
+}
+.home-text-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.home-text-1 .text-h2 .home-img-1 {
+    width: 800px;
+    position: relative;
+    top: 60px;
+}
+.home-text-1 .text-h2 .home-text p{
+    color: #fac031;
+    margin-right: 55px;
+    font-family: mv boli;
+}
+.home .home-text-1 .text-h2 .h2 {
+    font-size: 30px;
+    position: relative;
+    bottom: 50px;
+    margin: 0 0 50px 0;
+}
+.home .home-text-1 .text-h2 .h2 p  {
+    width: 650px;
+    text-align: justify;
+    margin-right: 30px;
+    line-height: 22px;
+}
+
+.localização {
+    text-align: center;
+    
+}
 @media (max-width:785px) {
     .navigation{
         padding: 18px 20px;
@@ -155,18 +193,18 @@ body {
     .nav-menu.ativo{
         right: 0;
     }
-    .nav-item{
+    .nav-item a{
         margin: 16px 0;
     }
     /*main*/
     .home{
-        padding: 100px 2%;
+        padding: 100px 5%;
         flex-direction: column;
         text-align: center;
         overflow: hidden;
         gap: 5rem;
     }
-    .home .text-h4{
+    .home .text-h4 {
         font-size: 15px;
     }
     .home .text-h1{
@@ -174,9 +212,12 @@ body {
         line-height: 3rem;
     }
     .home p{
-        font-size: 15px;
+        font-size: 1px;
     }
-    .home-img{
-        width: 20%;
+    .home .home-img .home-img-1 {
+        max-width: 100%;
+        margin-right: 100%;
+        align-items: right;
     }
+    
 }
