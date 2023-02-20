@@ -98,18 +98,22 @@ body {
 }
 .home-text {
     max-width: 20rem;
+    margin-left: 20px;
 }
 .home-text .text-h4 {
+    margin-left: 20px;
     font-size: 1.5rem;
     color: var(--red);
     margin-bottom: 1rem;
 }
 .home-text .text-h1 {
+    margin-left: 20px;
     font-size: 4rem;
     margin-bottom: 2rem;
     line-height: 4rem;
 }
 .home-text p {
+    margin-left: 20px;
     margin-bottom: 1rem;
 }
 .home-btn {
@@ -132,6 +136,7 @@ body {
     padding: 10px 0;
 }
 .home-text-1 {
+    margin-left: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
