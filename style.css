@@ -10,7 +10,7 @@
 }
 :root {
     --red: #d63a25;
-    --white: #F0F8FF;
+    --white: #FFE4B5	;
     --dark: #1e1c2a;
 } 
 body{
@@ -22,7 +22,7 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 18px 40px;
-    box-shadow: 0 0.1rem 0.5rem #F0F8FF;
+    box-shadow: 0 0.1rem 0.5rem #FFE4B5;
     width: 100%;
     background: var(--white);
     transition: all 0.5s;
@@ -48,7 +48,7 @@ body{
 .sociais a i:hover {
     transform: scale(1.6) rotate(5deg);
     font-size: 20px;
-    color: #F0F8FF;
+    color: #FFE4B5	;
 }
 .logo span{
     color: var(--dark);
