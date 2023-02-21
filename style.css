@@ -37,13 +37,13 @@ body{
     width: 20%;
 }
 .sociais a {
-    width: 10px;
+    width: 5px;
     height: 10px;
-    background-image: linear-gradient(45deg, #ff2500, #ff7100);
+    background-image: linear-gradient(45deg, #ff8800, #ffb300);
     border: none;
-    border-radius: 50px;
+    border-radius: 5px;
     cursor: pointer;
-    margin-right: 10px;
+    margin-right: 5px;
 }
 .sociais a i:hover {
     transform: scale(1.6) rotate(5deg);
