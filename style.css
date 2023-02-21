@@ -34,16 +34,16 @@ body{
     font-weight: 600;
 }
 .navigation .sociais {
-    width: 5%;
+    width: 20%;
 }
 .sociais a {
-    width: 5px;
+    width: 10px;
     height: 10px;
-    background-image: linear-gradient(45deg, #ff8800, #ffb300);
+    background-image: linear-gradient(45deg, #ff2500, #ff7100);
     border: none;
-    border-radius: 5px;
+    border-radius: 50px;
     cursor: pointer;
-    margin-right: 5px;
+    margin-right: 10px;
 }
 .sociais a i:hover {
     transform: scale(1.6) rotate(5deg);
@@ -61,7 +61,7 @@ body{
 .navigation ul li a{
     color: var(--dark);
     font-size: 17px;
-    font-weight: 250;
+    font-weight: 500;
     transition: all 0.5s;
 }
 .navigation ul li a:hover{
@@ -124,7 +124,7 @@ body{
     background: #fc4c35;
 }
 .home-img img{
-    width: 550px;
+    width: 100%;
 }
 .galeria {
     width: 100%;
@@ -164,7 +164,7 @@ body{
     background: var(--dark);
 }
 .galeria .galeria_imagem_box .galeria_image img {
-    width: 100px;
+    width: 100%;
     transition: .3s;
 }
 .galeria .galeria_imagem_box .galeria_image:hover img {
@@ -174,7 +174,7 @@ body{
     position: absolute;
     font-size: 35px;
     margin-bottom: 130px;
-    color: #fa8831;
+    color: #fac131;
     font-family: polo;
     z-index: 5;
     opacity: 1;
