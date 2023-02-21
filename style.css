@@ -124,7 +124,7 @@ body{
     background: #fc4c35;
 }
 .home-img img{
-    width: 100%;
+    width: 500px;
 }
 .galeria {
     width: 100%;
@@ -223,7 +223,7 @@ main.assinatura
 
 @media (max-width:1350px) {
     .navigation{
-        padding: 18px 20px;
+        padding: 10px 10px;
     }
     .menu{
         display: block;
