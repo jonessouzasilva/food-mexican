@@ -174,7 +174,7 @@ body{
     position: absolute;
     font-size: 35px;
     margin-bottom: 130px;
-    color: white;
+    color: #cefa31;
     font-family: polo;
     z-index: 5;
     opacity: 1;
@@ -221,7 +221,7 @@ main.assinatura
     text-shadow: 1px 1px  1px black;
 }
 
-@media (max-width:1500px) {
+@media (max-width:1350px) {
     .navigation{
         padding: 18px 20px;
     }
