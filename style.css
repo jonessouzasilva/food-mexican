@@ -61,7 +61,7 @@ body{
 .navigation ul li a{
     color: var(--dark);
     font-size: 17px;
-    font-weight: 500;
+    font-weight: 250;
     transition: all 0.5s;
 }
 .navigation ul li a:hover{
@@ -124,7 +124,7 @@ body{
     background: #fc4c35;
 }
 .home-img img{
-    width: 100%;
+    width: 550px;
 }
 .galeria {
     width: 100%;
