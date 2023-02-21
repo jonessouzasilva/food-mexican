@@ -217,12 +217,11 @@ main.assinatura
 {
     font-size: medium;
     text-align: center;
-    position: center center;
-    text-decoration: none;
+    position: center;
     text-shadow: 1px 1px  1px black;
 }
 
-@media (max-width:800px) {
+@media (max-width:1500px) {
     .navigation{
         padding: 18px 20px;
     }
