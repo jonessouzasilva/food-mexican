@@ -223,7 +223,7 @@ main.assinatura
 
 @media (max-width:1350px) {
     .navigation{
-        padding: 10px 10px;
+        padding: 18px 20px;
     }
     .menu{
         display: block;
@@ -273,6 +273,6 @@ main.assinatura
         font-size: 15px;
     }
     .home-img{
-        width: 45%;
+        width: 100%;
     }
 }
